@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/weather-icons.min.css">
+    </head>
+    <body style="background: url('background.jpg') no-repeat center center fixed; background-size: cover;>
+        <div class="container">
+            <!-- Calendar -->
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-6 date-padding">
+                                    <div class="text-right">
+                                        <p class="big-day">{day}</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 date-padding">
+                                    <div class="col-md-12"  style="height: 130px"></div>
+                                    <div>
+                                        <p style="font-size: 2.5rem">{weekday}<br />{month}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12 text-center">
+                            <i class="wi wi-owm-{current_weather_id}" style="font-size: 25rem"></i>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 30px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12 text-center">
+                            <h2>{current_weather_text} | {current_weather_temp}°</h2>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 20px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-4">
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <i class="wi wi-owm-{today_weather_id}" style="font-size: 10rem; color:gray"></i>
+                                </div>
+                            </div>
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <h3>Today<br />{today_weather_pop}% | {today_weather_min}-{today_weather_max}°</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <i class="wi wi-owm-{tomorrow_weather_id}" style="font-size: 10rem; color:gray"></i>
+                                </div>
+                            </div>
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <h3>{tomorrow}<br />{tomorrow_weather_pop}% | {tomorrow_weather_min}-{tomorrow_weather_max}°</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <i class="wi wi-owm-{dayafter_weather_id}" style="font-size: 10rem; color:gray"></i>
+                                </div>
+                            </div>
+                            <div class="row align-items-start ">
+                                <div class="col-md-12 text-center">
+                                    <h3>{dayafter}<br />{dayafter_weather_pop}% | {dayafter_weather_min}-{dayafter_weather_max}°</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 50px"></div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 50px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12">
+                            <h2>Today</h2>
+                            <ol class="list-unstyled">
+                                {events_today}
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 10px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12">
+                            <h2>{tomorrow}</h2>
+                            <ol class="list-unstyled">
+                                {events_tomorrow}
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 10px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12">
+                            <h2>{dayafter}</h2>
+                            <ol class="list-unstyled">
+                                {events_dayafter}
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12"  style="height: 10px"></div>
+                    </div>
+                    <div class="row align-items-start ">
+                        <div class="col-md-12">
+                            <h2>{topic_title}</h2>
+                            <div class="did-you-know">{topic_text}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

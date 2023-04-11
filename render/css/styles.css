@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "Lexend-Regular";
+    src: url('../font/Lexend-Regular.ttf');
+}
+
+@font-face {
+    font-family: "Lexend-Light";
+    src: url('../font/Lexend-Light.ttf');
+}
+
+@font-face {
+    font-family: "TiltWarp-Regular";
+    src: url('../font/TiltWarp-Regular.ttf');
+}
+
+h1, h2, p, span, .h1, .h2, .p, .span  {
+    font-family: "Lexend-Regular", sans-serif;
+}
+
+.list-unstyled {
+    text-overflow: ellipsis;
+}
+
+.event-time {
+    color: gray
+}
+
+.big-day {
+    font-family: "TiltWarp-Regular", sans-serif;
+    font-size: 18rem;
+}
+
+.event {
+    max-width: 95%;
+    font-family: "Lexend-Regular", sans-serif;
+    font-size: 2.5rem;
+    display: list-item;          /* This has to be "list-item"                                               */
+    list-style-type: disc;     /* See https://developer.mozilla.org/en-US/docs/Web/CSS/list-style-type     */
+    list-style-position: inside;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.did-you-know {
+    font-family: "Lexend-Light", sans-serif;
+    font-size: 2.5rem;
+    max-width: 95%;
+}
+
+.date-padding {
+  padding-right:1;
+  padding-left:0;
+  padding-top:0;
+  padding-bottom:0;
+}
+
+.add-padding {
+  padding-right:10;
+  padding-left:10;
+  padding-top:0;
+  padding-bottom:0;
+}

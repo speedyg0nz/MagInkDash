@@ -1,0 +1,13 @@
+{
+  "displayTZ": "Asia/Hong_Kong",
+  "calendars": ["primary"],
+  "numCalDaysToShow": 3,
+  "owm_api_key": "ENTER YOUR OWN API KEY HERE",
+  "lat": 22.3193,
+  "lon": 114.1694,
+  "imageWidth": 1200,
+  "imageHeight": 825,
+  "rotateAngle": 0,
+  "openai_api_key": "ENTER YOUR OWN API KEY HERE",
+  "path_to_server_image": "/var/www/html/maginkdash.png"
+}
