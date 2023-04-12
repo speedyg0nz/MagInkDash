@@ -21,7 +21,7 @@ Some features of the dashboard:
 - **OpenAI ChatGPT**: As with any new projects in 2023, we can't avoid bringing in ChatGPT. So I've also included a section in the dashboard to retrieve ChatGPT responses via OpenAI's API (free for now, paid in the future).  So far I'm using it to retrieve factoids on animals, historical figures, notable events, countries, world records, etc. It's a huge hit with the kids at home, and they'll be standing next to the dashboard on the hour to wait for the next refresh. The prompts fed to ChatGPT can certainly be customised, so please knock yourself out and think of the most outrageous things you can put on your dashboard. Note that you might have to test and adjust the prompts/parameters, else ChatGPT might return fairly repetitive responses, e.g. on Abraham Lincoln, Rosa Parks, Martin Luther King.
 - **Telegram Bot**: Although the battery life is crazy long on the Inkplate 10, I still wish to be notified when the battery runs low. To do so, I set up a Telegram Bot and the Inkplate will trigger the bot to send me a message if the measured battery voltage falls below a specified threshold. That said, with the bot set up, there's actually much more you could do, e.g. send yourself a message when it's to expected to rain in the next hour.
 
-![MagInkCal Basics](https://user-images.githubusercontent.com/5581989/231360312-8b1789c1-9576-472a-bfa9-c5a280e75788.png)
+![MagInkCal Basics](https://user-images.githubusercontent.com/5581989/231362411-207dc7e2-c27c-43aa-b030-72db6efaa7f5.png)
 
 ## Setting Up 
 
