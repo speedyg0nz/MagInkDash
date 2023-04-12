@@ -2,8 +2,7 @@
 # MagInkDash
 This repo contains the code needed to drive an E-Ink Magic Dashboard that uses a Raspberry Pi to automatically retrieve updated content from Google Calendar, OpenWeatherMap and OpenAI ChatGPT, format them into the desired layout, before serving it to a battery powered E-Ink display (Inkplate 10). Note that the code has only been tested on the specific hardware mentioned, but can be easily modified to work with other hardware (for both the server or display).
 
-
-
+![20230412_001704](https://user-images.githubusercontent.com/5581989/231361096-82e7ccba-c7db-4900-a48c-49fd5e4e9161.JPG)
 
 ## Background
 Back in September 2021, I [shared about my E-Ink Calendar project (MagInkCal) on Reddit](https://www.reddit.com/r/raspberry_pi/comments/pugv7d/maginkcal_magic_calendar_project_completed_full/) (with [full source code on Github](https://github.com/speedyg0nz/MagInkCal/)), which was an attempt to replicate the [Android Magic Calendar concept](https://www.youtube.com/watch?v=2KDkFgOHZ5I) that inspired many DIY projects over the years. While the calendar has been serving me extremely well, I wanted a dashboard which offered additonal information that was rich, timely and glanceable, such as the weather for the next hour just before leaving the house. While there were many projects that might achieve a similar outcome, I wanted something that met my specific needs. Hence, this project was born. You can read more about the story and join the conversation over on Reddit.
@@ -22,9 +21,7 @@ Some features of the dashboard:
 - **OpenAI ChatGPT**: As with any new projects in 2023, we can't avoid bringing in ChatGPT. So I've also included a section in the dashboard to retrieve ChatGPT responses via OpenAI's API (free for now, paid in the future).  So far I'm using it to retrieve factoids on animals, historical figures, notable events, countries, world records, etc. It's a huge hit with the kids at home, and they'll be standing next to the dashboard on the hour to wait for the next refresh. The prompts fed to ChatGPT can certainly be customised, so please knock yourself out and think of the most outrageous things you can put on your dashboard. Note that you might have to test and adjust the prompts/parameters, else ChatGPT might return fairly repetitive responses, e.g. on Abraham Lincoln, Rosa Parks, Martin Luther King.
 - **Telegram Bot**: Although the battery life is crazy long on the Inkplate 10, I still wish to be notified when the battery runs low. To do so, I set up a Telegram Bot and the Inkplate will trigger the bot to send me a message if the measured battery voltage falls below a specified threshold. That said, with the bot set up, there's actually much more you could do, e.g. send yourself a message when it's to expected to rain in the next hour.
 
-
 ![MagInkCal Basics](https://user-images.githubusercontent.com/5581989/231360312-8b1789c1-9576-472a-bfa9-c5a280e75788.png)
-
 
 ## Setting Up 
 
