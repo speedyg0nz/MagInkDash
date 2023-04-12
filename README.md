@@ -72,8 +72,9 @@ crontab -e
 
 12. That's all! Your Magic Dashboard should now be refreshed every hour! 
 
+![Uploading 20230412_214652.JPG…]()
 ![20230412_215020](https://user-images.githubusercontent.com/5581989/231484068-aa6ce877-1e0a-49fe-b47e-7c024752f42c.JPG)
-Family portrait together with the MagInkCal
+Selfie and family portrait together with the MagInkCal
 
 ## Acknowledgements
 - [Lexend Font](https://fonts.google.com/specimen/Lexend) and [Tilt Warp Font](https://fonts.google.com/specimen/Tilt+Warp): Fonts used for the dashboard display
