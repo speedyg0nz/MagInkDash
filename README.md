@@ -23,6 +23,7 @@ Some features of the dashboard:
 - **Telegram Bot**: Although the battery life is crazy long on the Inkplate 10, I still wish to be notified when the battery runs low. To do so, I set up a Telegram Bot and the Inkplate will trigger the bot to send me a message if the measured battery voltage falls below a specified threshold. That said, with the bot set up, there's actually much more you could do, e.g. send yourself a message when it's to expected to rain in the next hour.
 
 
+![MagInkCal Basics](https://user-images.githubusercontent.com/5581989/231360312-8b1789c1-9576-472a-bfa9-c5a280e75788.png)
 
 
 ## Setting Up 
