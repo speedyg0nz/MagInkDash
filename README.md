@@ -72,7 +72,7 @@ crontab -e
 
 12. That's all! Your Magic Dashboard should now be refreshed every hour! 
 
-![Uploading 20230412_214652.JPG…]()
+![20230412_214652](https://user-images.githubusercontent.com/5581989/231485348-35d7e0df-034e-49aa-8500-223b2b3bdcc0.JPG)
 ![20230412_215020](https://user-images.githubusercontent.com/5581989/231484068-aa6ce877-1e0a-49fe-b47e-7c024752f42c.JPG)
 Selfie and family portrait together with the MagInkCal
 
